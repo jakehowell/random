@@ -435,6 +435,9 @@ ts-message a.timestamp {
 .tab_container .file_list_item:focus, .tab_container .file_list_item:hover {
   background-color: var(--background-hover); }
 
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+  background: var(--background) !important; }
+
 /* files */
 .file_container.generic_container .file_header_meta .meta_hover {
   background-color: transparent !important; }
